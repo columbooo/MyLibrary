@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'MyLibrary'
+  s.name             = 'ConfigLibrary'
   s.version          = '0.1.0'
   s.summary          = 'A short description of MyLibrary.'
 
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MyLibrary/Classes/**/*'
+  s.source_files = 'ConfigLibrary/Classes/**/*'
   
   # s.resource_bundles = {
   #   'MyLibrary' => ['MyLibrary/Assets/*.png']
